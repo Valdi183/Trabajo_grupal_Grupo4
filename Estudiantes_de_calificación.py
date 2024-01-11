@@ -1,3 +1,9 @@
+### Estudiantes de calificación ###
+
+"""
+Realizado por: Ruben Elices Rodríguez, Alejandro Barreche Ruíz, Víctor Valdivia Calatrava.
+"""
+
 class Estudiante:
     def __init__(self, nota: int):
         self.nota = nota
