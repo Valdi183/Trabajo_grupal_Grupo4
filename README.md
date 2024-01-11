@@ -14,7 +14,12 @@ Para hacer este redondeo se ha creado una **clase**, que contiene el **algorítm
 depende del estudiante, que son los **objetos** en este caso, cada uno con su respectiva calificación a ser redondeada.
 
 ## Rana en laberinto:
+Esta prueba consiste en calcular la **probabilidad** de que la rana Alef consiga salir de un **laberinto** creado por el propio usuario.
+Para realizar esta prueba, se ha creado una **clase**, la cual permite definir el objeto que es en este caso el laberinto (tablero).
+Esta clase se encarga, tanto de pedir al usuario la forma del tablero, como de resolver la probabilidad que tiene la rana de escapar,
+con un algorítmo en función de el número de **columnas**, **filas**, y **tuneles** que haya puesto el usuario en el tablero, además, teniendo también
+en cuenta, la **forma** del tablero.
 
 
-
+## Link:
 Este es el link del repositorio del [trabajo grupal](https://github.com/Valdi183/Trabajo_grupal_Grupo4)
