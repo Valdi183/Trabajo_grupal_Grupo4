@@ -1,7 +1,11 @@
+"""
+Realizado por: Alejandro Barreche, Rubén Elices, Victor Valdivia
+"""
+# Se calcula el resultado que da la suma de los elementos de la matriz.
 def simpleArraySum(matrix):
     return print(f"La suma de la matriz es: {sum(int(elem) for elem in matrix)}")
 
-
+#Se establece el tamaño que tendrá la matriz, siendo siempre mayor que 0.
 def get_matrix_size():
     while True:
         size = int(input("Introduzca cual va a ser el tamaño de la matriz: "))
@@ -12,6 +16,8 @@ def get_matrix_size():
                 print("El tamaño de la matriz debe ser mayor que cero.")
         except ValueError:
             print("Por favor, ingresa un número válido para el tamaño.")
+
+#Se introducen los números que van en la matriz y que serán sumados, tiene que haber tantos números como se haya indicado en el tamaño de la matriz sin exceder dicho número.
 
 def matrix():
     size = get_matrix_size()
@@ -29,3 +35,4 @@ def matrix():
     
 if __name__ == '__main__':
     simpleArraySum(matrix())
+    
